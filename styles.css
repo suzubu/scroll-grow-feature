@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "PP Neue Montreal";
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+p {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background: url(./assets/dark-green-texture.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.footer {
+  width: 100vw;
+  height: 100vh;
+  background: url(./assets/objects.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.services {
+  background: #000000;
+  padding: 8em 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.services-header {
+  width: 100%;
+  /* display: flex; */
+  gap: 4em;
+}
+
+.services-header .col:nth-child(1) {
+  flex: 2;
+}
+
+.services-header .col:nth-child(2) {
+  flex: 5;
+  padding: 1em;
+}
+
+.service {
+  display: flex;
+  gap: 2em;
+  height: 150px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.service-info {
+  flex: 2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.service-img {
+  flex: 5;
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+}
+
+.img {
+  width: 30%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Lenis */
+html.lenis,
+html.lenis body {
+  height: 500vh;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: clip;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}

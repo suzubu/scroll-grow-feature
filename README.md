@@ -81,4 +81,4 @@ MIT — use, remix, and adapt freely.
 
 ## 🙋‍♀️ Author
 
-Created by [suzubu](https://github.com/suzubu)
+Made with ☕ + 🎧 by [suzubu](https://github.com/suzubu)

@@ -1,4 +1,4 @@
-# 🌀 Lenis Scroll Zoom Grid
+# 🌀 Scroll Grow Feature
 
 > A scroll-activated visual layout built with GSAP, ScrollTrigger, and Lenis for fluid transitions, zooming image panels, and dynamic layout effects.
 
